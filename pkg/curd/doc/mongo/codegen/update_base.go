@@ -16,7 +16,7 @@
 
 package codegen
 
-import "github.com/cloudwego/cwgo/pkg/curd/code"
+import "github.com/cloudwegox/cwgo/pkg/curd/code"
 
 func updateOneBaseCodegen() []code.Statement {
 	stmt := `if selector == nil || updater == nil {

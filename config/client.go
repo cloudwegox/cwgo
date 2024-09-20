@@ -19,7 +19,7 @@ package config
 import (
 	"strings"
 
-	"github.com/cloudwego/cwgo/pkg/consts"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 	"github.com/urfave/cli/v2"
 )
 

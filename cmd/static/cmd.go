@@ -17,16 +17,16 @@
 package static
 
 import (
-	"github.com/cloudwego/cwgo/config"
-	"github.com/cloudwego/cwgo/meta"
-	"github.com/cloudwego/cwgo/pkg/api_list"
-	"github.com/cloudwego/cwgo/pkg/client"
-	"github.com/cloudwego/cwgo/pkg/consts"
-	"github.com/cloudwego/cwgo/pkg/curd/doc"
-	"github.com/cloudwego/cwgo/pkg/fallback"
-	"github.com/cloudwego/cwgo/pkg/job"
-	"github.com/cloudwego/cwgo/pkg/model"
-	"github.com/cloudwego/cwgo/pkg/server"
+	"github.com/cloudwegox/cwgo/config"
+	"github.com/cloudwegox/cwgo/meta"
+	"github.com/cloudwegox/cwgo/pkg/api_list"
+	"github.com/cloudwegox/cwgo/pkg/client"
+	"github.com/cloudwegox/cwgo/pkg/consts"
+	"github.com/cloudwegox/cwgo/pkg/curd/doc"
+	"github.com/cloudwegox/cwgo/pkg/fallback"
+	"github.com/cloudwegox/cwgo/pkg/job"
+	"github.com/cloudwegox/cwgo/pkg/model"
+	"github.com/cloudwegox/cwgo/pkg/server"
 	"github.com/urfave/cli/v2"
 )
 

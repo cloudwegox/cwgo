@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudwego/cwgo/pkg/curd/extract"
+	"github.com/cloudwegox/cwgo/pkg/curd/extract"
 )
 
 type QueryMode string

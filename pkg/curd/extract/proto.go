@@ -27,12 +27,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudwego/cwgo/pkg/consts"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/cloudwego/cwgo/config"
-	"github.com/cloudwego/cwgo/pkg/common/utils"
+	"github.com/cloudwegox/cwgo/config"
+	"github.com/cloudwegox/cwgo/pkg/common/utils"
 )
 
 type PbUsedInfo struct {

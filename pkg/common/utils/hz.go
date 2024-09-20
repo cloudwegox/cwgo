@@ -19,8 +19,8 @@ package utils
 import (
 	"path"
 
-	"github.com/cloudwego/cwgo/pkg/consts"
 	"github.com/cloudwego/hertz/cmd/hz/util/logs"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 )
 
 func SetHzVerboseLog(v bool) {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudwego/cwgo/pkg/curd/extract"
+	"github.com/cloudwegox/cwgo/pkg/curd/extract"
 )
 
 type TransactionParse struct {

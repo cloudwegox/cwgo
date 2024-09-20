@@ -21,13 +21,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cloudwego/cwgo/config"
-	"github.com/cloudwego/cwgo/pkg/consts"
 	"github.com/cloudwego/hertz/cmd/hz/app"
 	"github.com/cloudwego/hertz/cmd/hz/util/logs"
 	"github.com/cloudwego/kitex"
 	kargs "github.com/cloudwego/kitex/tool/cmd/kitex/args"
 	"github.com/cloudwego/kitex/tool/internal_pkg/pluginmode/thriftgo"
+	"github.com/cloudwegox/cwgo/config"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 )
 
 func Fallback(c *config.FallbackArgument) error {

@@ -23,14 +23,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudwego/cwgo/pkg/curd/doc/mongo/plugin"
 	"github.com/cloudwego/kitex/tool/internal_pkg/log"
+	"github.com/cloudwegox/cwgo/pkg/curd/doc/mongo/plugin"
 
-	"github.com/cloudwego/cwgo/pkg/common/utils"
+	"github.com/cloudwegox/cwgo/pkg/common/utils"
 
-	"github.com/cloudwego/cwgo/config"
-	"github.com/cloudwego/cwgo/pkg/consts"
 	"github.com/cloudwego/hertz/cmd/hz/util/logs"
+	"github.com/cloudwegox/cwgo/config"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 )
 
 func Doc(c *config.DocArgument) error {

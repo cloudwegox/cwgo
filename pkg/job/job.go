@@ -30,12 +30,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cloudwego/cwgo/meta"
+	"github.com/cloudwegox/cwgo/meta"
 
-	"github.com/cloudwego/cwgo/config"
-	"github.com/cloudwego/cwgo/pkg/common/utils"
-	"github.com/cloudwego/cwgo/pkg/consts"
 	"github.com/cloudwego/kitex/tool/internal_pkg/log"
+	"github.com/cloudwegox/cwgo/config"
+	"github.com/cloudwegox/cwgo/pkg/common/utils"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 
 	"golang.org/x/tools/go/ast/astutil"
 )

@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/cloudwego/cwgo/pkg/common/utils"
+	"github.com/cloudwegox/cwgo/pkg/common/utils"
 )
 
 type ProtoParser struct {

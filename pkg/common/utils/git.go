@@ -22,7 +22,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/cloudwego/cwgo/pkg/consts"
+	"github.com/cloudwegox/cwgo/pkg/consts"
 )
 
 func GitClone(gitURL, path string) error {

@@ -19,8 +19,8 @@ package codegen
 import (
 	"fmt"
 
-	"github.com/cloudwego/cwgo/pkg/curd/code"
-	"github.com/cloudwego/cwgo/pkg/curd/parse"
+	"github.com/cloudwegox/cwgo/pkg/curd/code"
+	"github.com/cloudwegox/cwgo/pkg/curd/parse"
 )
 
 func findCodegen(find *parse.FindParse) []code.Statement {

@@ -18,6 +18,7 @@ package main
 import (
 	"os"
 
+	"github.com/cloudwegox/cwgo/iflytek"
 	"github.com/cloudwegox/cwgo/pkg/curd/doc/mongo/plugin"
 
 	"github.com/cloudwego/hertz/cmd/hz/app"
@@ -28,6 +29,10 @@ import (
 	"github.com/cloudwegox/cwgo/cmd/static"
 	"github.com/cloudwegox/cwgo/tpl"
 )
+
+func init() {
+	iflytek.Init()
+}
 
 func main() {
 	tpl.RegisterTemplateFunc()
